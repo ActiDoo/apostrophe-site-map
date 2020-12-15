@@ -491,7 +491,7 @@ module.exports = {
             url: {
               priority: priority,
               changefreq: 'daily',
-              loc: url,
+              loc: self.baseUrl + self.apos.prefix + url,
               workflowGuid: page.workflowGuid,
               workflowLocale: locale
             }
